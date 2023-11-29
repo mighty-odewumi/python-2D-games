@@ -1,0 +1,12 @@
+import pygame, time
+pygame.init()
+#pygame.mixer.music.load('mp3-now.com - FREE Juice WRLD Type Beat  Last Legs Prod BeatsbyAdz.mp3')
+#pygame.mixer.music.play(-1, 2.0)
+#time.sleep(10)
+#pygame.mixer.music.play(-1, 0.0)
+#time.sleep(1)
+pygame.mixer.music.load('Nardo-Wick-Who-Want-Smoke.mp3')
+pygame.mixer.music.play(-1, 2.0)
+time.sleep(100)
+pygame.mixer.music.stop()
+pygame.mixer.init()
